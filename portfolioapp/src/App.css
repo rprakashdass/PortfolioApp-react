@@ -26,3 +26,17 @@
     min-height: 70%; /* Ensure video covers the entire height */
     z-index: -1; /* Move the video behind other content */
   }
+
+footer{
+    background-color: rgb(18, 20, 20);
+    margin-bottom: auto;
+}
+
+footer button{
+  margin : 10px ;
+   color : black
+}
+
+footer section{
+  margin: 30px 30px 10px 30px;
+}

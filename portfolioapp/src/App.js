@@ -3,7 +3,7 @@ import LinksCard from './links.js';
 import Header,{TopNav} from './header.js';
 import Display from './socialmedia';
 import Gallery from './gallery.js';
-import Footer from './footer.js';
+import Footer,{FooterMessage} from './footer.js';
 
 function App() {
   return (
@@ -20,14 +20,16 @@ function App() {
         <hr className='mt-5 mb-5'/>
         <Gallery/>
       </Body>
-      <Footer/>
+      <Footer>
+        <FooterMessage/>
+      </Footer>
     </div>
   );
 }
 
 function Body({children}){
   return (
-    <section style={{"margin-bottom" : "25px",margin : "150px"}}>
+    <section style={{"marginBottom" : "25px",margin : "150px"}}>
       {children}
       <hr></hr>
     </section>
@@ -60,5 +62,6 @@ function About(){
     </section>
   );
 }
+
 
 export default App;

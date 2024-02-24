@@ -38,7 +38,7 @@ function Display(){
         <div className='row'>
         {
             socialmedia.map((key) =>
-                <div key={key} className='col col-lg-3 col-sm-12 col-md-6'>
+                <div key={key.title} className='col col-lg-3 col-sm-12 col-md-6'>
                     <div className='card bg-dark text-white p-2'>
                         <h3 className='card-title text-center'>{key.title}</h3>
                         <br/>

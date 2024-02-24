@@ -2,7 +2,7 @@ function Header({children}){
     return (
       <div className='header-container'>
         {/* Children will occor without video */}
-        <video className='banner-video' src='images/bannerVid.mp4' alt="VideoBanner" autoPlay Loop>{children}</video>
+        <video className='banner-video' src='images/bannerVid.mp4' alt="VideoBanner" autoPlay loop>{children}</video>
       </div>
     );
 }
@@ -12,7 +12,7 @@ function Button({onClick}){
     <button onClick={onClick} style={{
       padding : "10px",
       color : "black",
-      "z-index" : 9999,
+      "zIndex" : 9999,
     }}>Click Me!</button>
   );
 }

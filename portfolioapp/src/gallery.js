@@ -6,31 +6,31 @@ const projects = [
         'imglink' : 'images/project.jpg'
     },
     {
-        'title' : 'Project1',
+        'title' : 'Project2',
         'decription' : 'This is Description You can Log in and View  my profile',
         'link' : 'https://www.pexels.com/photo/plasma-ball-illustration-414860/',
         'imglink' : 'images/project.jpg'
     },
     {
-        'title' : 'Project1',
+        'title' : 'Project3',
         'decription' : 'This is Description You can Log in and View  my profile',
         'link' : 'https://www.pexels.com/photo/plasma-ball-illustration-414860/',
         'imglink' : 'images/project.jpg'
     },
     {
-        'title' : 'Project1',
+        'title' : 'Project4',
         'decription' : 'This is Description You can Log in and View  my profile',
         'link' : 'https://www.pexels.com/photo/plasma-ball-illustration-414860/',
         'imglink' : 'images/project.jpg'
     },
     {
-        'title' : 'Project1',
+        'title' : 'Project5',
         'decription' : 'This is Description You can Log in and View  my profile',
         'link' : 'https://www.pexels.com/photo/plasma-ball-illustration-414860/',
         'imglink' : 'images/project.jpg'
     },
     {
-        'title' : 'Project1',
+        'title' : 'Project6',
         'decription' : 'This is Description You can Log in and View  my profile',
         'link' : 'https://www.pexels.com/photo/plasma-ball-illustration-414860/',
         'imglink' : 'images/project.jpg'
