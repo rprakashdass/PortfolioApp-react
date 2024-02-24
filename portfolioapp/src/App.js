@@ -29,7 +29,7 @@ function App() {
 
 function Body({children}){
   return (
-    <section style={{"marginBottom" : "25px",margin : "150px"}}>
+    <section style={{ marginBottom : "25px",margin : "150px"}}>
       {children}
       <hr></hr>
     </section>
